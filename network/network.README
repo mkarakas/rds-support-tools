@@ -31,6 +31,9 @@ vpc-rds-subnet-assoc.cli            :   Bash script accepts mandatory VPC on com
                                         which they are running from (if Mulit AZ then current 
                                         Primary instance subnet will be displayed). 
                                         Tested on aws-cli/1.10.56
-
+                                        
+list-rds-eni-assoc.cli              :   Bash script accepts mandatory VPC on commandline. 
+                                        Outputs list of db-instance-endpoints and their respective ENIs. 
+                                        Note for Multi-AZ deployments, only primary ENI will be listed. 
 
 
